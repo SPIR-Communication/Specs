@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source_files = '*.{h,m}'
   s.framework    = "CoreGraphics"
-  s.requires_arc = true
+  s.requires_arc = false
 end
