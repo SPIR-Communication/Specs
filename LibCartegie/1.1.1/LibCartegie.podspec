@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = "Classes/**/*.{m,h}"
   s.resource  = ['Classes/Private/Assets/*.xml']
-  s.public_header_files = 'Classes/SPIRLibCartegie.h' , 'Classes/Models/SPIREtablissementCartegie.h' , 'Classes/SPIRTErreur.h' , 'Classes/SPIRLibCartegieProtocol.h'
+  s.public_header_files = 'Classes/SPIRLibCartegie.h' , 'Classes/Models/SPIREtablissementCartegie.h' , 'Classes/Models/SPIRTErreur.h' , 'Classes/SPIRLibCartegieProtocol.h'
   s.requires_arc = false
 
   s.dependency 'GRMustache',       '4.0.0'
