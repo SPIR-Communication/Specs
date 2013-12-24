@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '7.0'
   s.source_files = "Classes/**/*.{m,h,c}"
-  s.public_header_files = 'Classes/SampleLib.h', 'Classes/SampleLibC.h', 'Classes/Models/**/*.h'
+  s.public_header_files = 'Classes/CRMCoreDataAccess.h', 'Classes/Models/**/*.h', 'Classes/PublicProtocols/ICRMCoreDataAccess.h'
   s.resources = 'Assets/*'
   s.requires_arc = false
 
