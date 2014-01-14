@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source_files = "Classes/**/*.{m,h,c}"
   s.prefix_header_file = 'Classes/DistriBox/DistriBoxLib-Prefix.pch'
+  s.public_header_files = 'Classes/DistriBox/DistriBoxViewController.h' 
+
   s.requires_arc = true
 
   s.frameworks = 'Foundation', 'CoreLocation', 'MapKit'
