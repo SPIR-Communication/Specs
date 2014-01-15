@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
                           'Classes/DistriBox/BeanZone.h',
                           'Classes/DistriBox/BeanZoneElement.h'
 
+  s.resources = 'Assets/**/*.*' 
   s.requires_arc = true
 
   s.frameworks = 'Foundation', 'CoreLocation', 'MapKit'
