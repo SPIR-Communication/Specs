@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.prefix_header_file = 'Classes/CexCoreLib-Prefix.pch'
 
   s.source_files = "Classes/**/*.{m,h,c}"
+  s.resources = 'Assets/**/*.*' 
   s.requires_arc = false
 
   s.frameworks = 'Foundation', 'CoreData', 'CoreLocation', 'UIKit', 'MessageUI'
